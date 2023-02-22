@@ -9,5 +9,4 @@ for dir in `find . -type d -name .git | sed -e 's|/.git||'`; do
 	 git push
    git push --tags
 	 cd -
-
 done
